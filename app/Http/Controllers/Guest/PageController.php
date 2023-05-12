@@ -11,8 +11,7 @@ class PageController extends Controller
     public function index() {
 
     
-    $trains = Train::all();
-
+    $trains = Train::whereDate('created_at', '=', date('Y-m-d'));
     return view('home', compact('trains'));
 
     }
