@@ -1,3 +1,3 @@
 <footer>
-    <h3 class="text-center">Made with &hearts; by Boolean</h3>
+    <h5 class="text-center">Made with &hearts; by Boolean</h5>
 </footer>

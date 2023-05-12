@@ -1,7 +1,9 @@
 <header>
-    <nav class="navbar bg-body-tertiary fixed-top">
+    <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Offcanvas navbar</a>
+            <a class="navbar-brand p-3" href="#">
+            <img src="https://logos-download.com/wp-content/uploads/2021/01/Italo_Treno_Logo.png" alt="italo-logo">
+            </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
