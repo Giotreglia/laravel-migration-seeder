@@ -22,7 +22,7 @@ return new class extends Migration
             $table->date('data_di_arrivo');
             $table->time('orario_di_partenza', $precision = 0);
             $table->time('orario_di_arrivo', $precision = 0);
-            $table->float('codice_treno', 9, 0);
+            $table->string('codice_treno');
             $table->unsignedTinyInteger('numero_carrozze');
             $table->boolean('in_orario');
             $table->boolean('cancellato')->default(false);
