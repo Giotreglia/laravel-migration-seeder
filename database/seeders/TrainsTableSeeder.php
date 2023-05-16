@@ -56,14 +56,14 @@ class TrainsTableSeeder extends Seeder
                 $newTrain->azienda = $row[0];
                 $newTrain->stazione_di_partenza = $row[1];
                 $newTrain->stazione_di_arrivo = $row[2];
-/*                 $newTrain->data_di_partenza = $departureDate;
-                $newTrain->data_di_arrivo = $arrivalDate;
-                $newTrain->orario_di_partenza = $departureTime;
-                $newTrain->orario_di_arrivo = $arrivalTime; */
-                $newTrain->codice_treno = $row[5];
-                $newTrain->numero_carrozze = $row[6];
-                $newTrain->in_orario = $row[7];
-                $newTrain->cancellato = $row[8];
+                $newTrain->data_di_partenza = $row[3];
+                $newTrain->data_di_arrivo = $row[5];
+                $newTrain->orario_di_partenza = $row[4];
+                $newTrain->orario_di_arrivo = $row[6]; 
+                $newTrain->codice_treno = $row[7];
+                $newTrain->numero_carrozze = $row[8];
+                $newTrain->in_orario = $row[9];
+                $newTrain->cancellato = $row[10];
                 $newTrain->save();
             }
         }
